@@ -4,7 +4,7 @@ Build an HTTP Proxy from scratch in C, supporting the following functionalities:
 1. Support GET and CONNECT methods to process HTTP and HTTPS requests concurrently.
 2. Ability to handle multiple clients at the same time.
 3. Implement caching to facilitate the process of fetching contents. Cache policy includes evicting stale and LRU cached items when full.
-4. Trusted Proxy/TLS(SSL) interception: Make proxy trusted by the clients (using a self-signed certificate), so it can handle TLS(SSL) connections to decrypt contents in HTTPS. 
+4. Trusted proxy/SSL(TLS) inspection: Make proxy trusted by the clients (using a self-signed certificate), so it can handle SSL(TLS) connections to decrypt contents in HTTPS. 
 5. Bandwidth limiting.  
 6. Host blocking as a firewall.
 7. Error handling and Unit testing (using CUnit).
