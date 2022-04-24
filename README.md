@@ -1,5 +1,6 @@
 # CS-112-Final-Project: High Performance HTTP Proxy
 Build a HTTP Proxy from scratch in C, supporting following functionalities:
+```bash
 1. Support GET and CONNECT methods to process HTTP and HTTPS requests concurrently.
 2. Ability to handle multiple clients at the same time.
 3. Implement caching to facilitate the process of fetching contents. Cache policy includes evicting stale and LRU cached items when full.
@@ -7,6 +8,7 @@ Build a HTTP Proxy from scratch in C, supporting following functionalities:
 5. Bandwidth limiting for clients.  
 6. Host blocking as a firewall.
 7. Error handling and Unit testing (using CUnit).
+```
 
 ## Dependencies 
 Use the package manager [apt-get](https://linux.die.net/man/8/apt-get) to install Openssl and Openssl development package
