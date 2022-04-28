@@ -1,4 +1,4 @@
-# CS-112-Final-Project: High Performance HTTP Proxy
+# High Performance HTTP Proxy
 Build an HTTP Proxy from scratch in C, supporting the following functionalities:
 ```bash
 1. Support GET and CONNECT methods to process HTTP and HTTPS requests concurrently.
