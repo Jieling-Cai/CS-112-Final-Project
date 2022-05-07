@@ -1,5 +1,5 @@
 # High Performance Proxy Server
-A versatile HTTP Proxy implemented from scratch in C, supporting the following functionalities:
+A versatile proxy server implemented from scratch in C, supporting the following functionalities:
 ```bash
 1. Support GET and CONNECT methods to process HTTP and HTTPS requests concurrently.
 2. Ability to handle multiple clients at the same time.
